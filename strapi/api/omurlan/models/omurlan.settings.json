@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "omurlans",
+  "info": {
+    "name": "Omurlan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

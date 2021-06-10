@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/omurlans",
+      "handler": "omurlan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/omurlans/count",
+      "handler": "omurlan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/omurlans/:id",
+      "handler": "omurlan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/omurlans",
+      "handler": "omurlan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/omurlans/:id",
+      "handler": "omurlan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/omurlans/:id",
+      "handler": "omurlan.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
